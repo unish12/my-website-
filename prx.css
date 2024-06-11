@@ -12,6 +12,7 @@
     justify-content: space-between;
     background-color: #B00E0A;
     z-index: 100;
+    
   
 }
 .menu{
@@ -104,15 +105,20 @@ z-index: -1;
         height: 100%;
     }
 }
-*{
-    padding: 0;
-    margin: 0;
-    box-sizing: border-box;
+.status{
+    position: relative;
+    top: 550px;
 }
-footer{
-background-color: #111;
+@media(min-aspect-ratio:16/9){
+    .gg{
+        width: 110%;
+        height: auto;
+    }
 }
-.footerconrainer{
-    width: 100%;
-    padding: 70px 30px 20px;
+@media(max-aspect-ratio:16/9){
+    .gg{
+        width: auto;
+        height: 100%;
+    }
 }
+    
